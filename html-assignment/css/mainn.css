@@ -3,13 +3,30 @@ body{
     font-size: 18px;
 }
 footer, header{
-    background-color: fuchsia;
+    background-color:fuchsia;
 }
 
 .site-title{
-    color: gold;
+    color: greenyellow;
 }
 
 #my-image{
     box-shadow: 0 0px 0px rgba(0,0,0,1), 0 2px 1px rgba(0,0,0,1);
+}
+
+li{
+    list-style-type: square;
+}
+
+li:nth-child(2n-1){
+    background-color: blanchedalmond;
+}
+
+nav{
+    background:tomato;
+    border: greenyellow;
+}
+
+nav:hover{
+    background-color: yellow;
 }
