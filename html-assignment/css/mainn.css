@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+footer, header{
+    background-color: fuchsia;
+}
+
+.site-title{
+    color: gold;
+}
+
+#my-image{
+    box-shadow: 0 0px 0px rgba(0,0,0,1), 0 2px 1px rgba(0,0,0,1);
+}
