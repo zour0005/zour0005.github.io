@@ -23,8 +23,8 @@ li:nth-child(2n-1){
 }
 
 nav{
-    background:tomato;
-    border: greenyellow;
+    background-color: blue;
+    border:5px solid #000000;
 }
 
 nav:hover{
