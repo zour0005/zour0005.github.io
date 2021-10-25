@@ -1,0 +1,130 @@
+/* CSS file for week 6 class example */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***********************************************************
+						DEFAULTS
+***********************************************************/
+
+html{
+	padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px; 
+    background:#aad4cf;
+}
+
+h1{
+    font-size: 3.1rem; /* 48px - based on the root size of 10px set in the HTML */
+}
+
+h2{
+    font-size: 1.8rem; /* 28px based on root size of 10px */
+}
+
+p{
+    font-size: 1rem; /* 16px based on root size of 10px */
+}
+
+/***********************************************************
+						MAIN
+***********************************************************/
+
+#container{
+	margin: 0 auto;
+	width: 800px;
+}
+
+.text{
+	position: absolute;
+	top: 50px;
+	padding: 365px;
+	margin-top: -190px;
+	text-align: center;
+	color: white;
+}
+
+/***********************************************************
+						NAV
+***********************************************************/
+
+nav{
+    height:44px;
+    margin-bottom:20px;
+}
+
+nav a{
+	float: left;
+    text-align:center;
+    margin:0 145px; /* 0 on the top and bottom, 5px on the left and right */
+    text-decoration:none; /* removes the underline default from the link */
+    width:50px;
+    height:44px;
+}
+
+nav ul{
+	padding:0 400px;
+	text-align: center;
+	float: left;
+}
+
+nav ul a span{
+	color: black;
+	float: left;
+	margin-top: 10px;
+	padding:0 140px;
+	font-size: 1.5rem;
+	border-left: 1.5px solid black;
+}
+
+.home{
+	border-left: none;
+}
+
+
