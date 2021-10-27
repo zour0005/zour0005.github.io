@@ -58,6 +58,7 @@ html{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size:16px; 
     background:#aad4cf;
+	margin: 0 auto
 }
 
 h1{
@@ -65,7 +66,14 @@ h1{
 }
 
 h2{
-    font-size: 1.8rem; /* 28px based on root size of 10px */
+	font-size: 1.8rem; /* 28px based on root size of 10px */
+	padding-top: 20px;
+}
+
+h3{
+	font-size: 1.2rem;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 p{
@@ -77,8 +85,7 @@ p{
 ***********************************************************/
 
 #container{
-	margin: 0 auto;
-	width: 800px;
+	padding-left: 500px;
 }
 
 .text{
@@ -109,6 +116,8 @@ nav a{
 }
 
 nav ul{
+	margin: 0 40px;
+	background-color: rgb(191, 220, 230);;
 	padding:0 400px;
 	text-align: center;
 	float: left;
@@ -126,5 +135,77 @@ nav ul a span{
 .home{
 	border-left: none;
 }
+
+/***********************************************************
+						CONTENT
+***********************************************************/
+
+.simg{
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding: 10px;
+}
+
+article{
+	margin: 30px 470px;
+	padding: 0 5px 50px 50px;
+}
+
+section{
+	background-color:rgb(191, 220, 230);
+	padding:20px 10px 15px 25px; 
+	line-height: 25px;
+}
+
+.fheading{
+	padding-bottom: 10px;
+}
+
+.sheading{
+	padding-bottom: 10px;
+}
+
+
+li{
+	padding-top: 15px;
+	line-height: 7px;
+}
+
+form{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.finput{
+	width: 825px;
+}
+
+/*styling button*/
+#send{
+	border: 2px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+footer{
+	text-align: right;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+}
+
+.isend{
+	padding: 20px 23px 10px 10px;
+}
+
+
+
+
+
+
+
+
 
 
