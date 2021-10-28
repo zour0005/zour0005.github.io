@@ -62,7 +62,7 @@ html{
 }
 
 h1{
-    font-size: 3.1rem; /* 48px - based on the root size of 10px set in the HTML */
+    font-size: 3.2rem; /* 51.2px - based on the root size of 10px set in the HTML */
 }
 
 h2{
@@ -84,7 +84,9 @@ p{
 						MAIN
 ***********************************************************/
 
+/* style the element with the ID container */
 #container{
+	margin: 0 auto;
 	padding-left: 500px;
 }
 
@@ -101,39 +103,32 @@ p{
 						NAV
 ***********************************************************/
 
-nav{
-    height:44px;
-    margin-bottom:20px;
-}
 
-nav a{
-	float: left;
-    text-align:center;
-    margin:0 145px; /* 0 on the top and bottom, 5px on the left and right */
+
+nav ul li a{
     text-decoration:none; /* removes the underline default from the link */
-    width:50px;
-    height:44px;
+    height: 23px;
+	text-align: center;
 }
 
 nav ul{
-	margin: 0 40px;
-	background-color: rgb(191, 220, 230);;
-	padding:0 400px;
-	text-align: center;
+    background-color: rgb(191, 220, 230);;
+    padding:0 400px;
 	float: left;
+	display: block;
 }
 
 nav ul a span{
-	color: black;
+    color: black;
+    margin-top: 10px;
 	float: left;
-	margin-top: 10px;
-	padding:0 140px;
-	font-size: 1.5rem;
-	border-left: 1.5px solid black;
+    padding:0 140px;
+    font-size: 1.5rem;
+    border-left: 1.5px solid black;
 }
 
 .home{
-	border-left: none;
+    border-left: none;
 }
 
 /***********************************************************
@@ -147,7 +142,13 @@ nav ul a span{
 	padding: 10px;
 }
 
-article{
+.fimg{
+	margin: 0 -1px;
+	padding-top: -15px;
+	padding-left: -20px;
+}
+
+article, #nav{
 	margin: 30px 470px;
 	padding: 0 5px 50px 50px;
 }
@@ -170,6 +171,10 @@ section{
 li{
 	padding-top: 15px;
 	line-height: 7px;
+}
+
+.li{
+	line-height: 2.1px;
 }
 
 form{
@@ -199,6 +204,14 @@ footer{
 .isend{
 	padding: 20px 23px 10px 10px;
 }
+
+ul{
+	float: left;
+	margin: 0 auto;
+}
+
+
+
 
 
 
