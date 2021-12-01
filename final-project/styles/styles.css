@@ -1,0 +1,44 @@
+img{
+    display: block;
+    margin: 0 auto;
+    width: 1800px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+.container{
+    background-color: black;
+}
+
+span{
+    font-size: 20px;
+}
+
+input{
+    width:1800px;
+    height: 40px;
+}
+
+.text-wrapper{
+    display: block;
+    position:relative;
+    margin-top: -25%;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 60px;
+    color: white;
+    background-color: lightgrey;
+}
+
+.text-wrapper h1{
+    text-emphasis: center;
+    text-align: left;
+    font-size: 80px;
+}
+
+.main-img{
+    width: 1900px;
+    height: 600px;
+}
