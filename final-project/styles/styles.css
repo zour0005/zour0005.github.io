@@ -249,3 +249,17 @@ footer{
     font-size: 50px;
 }
 
+i{
+    color: gold;
+    font-size: 30px;
+    border: 1px solid gold;
+}
+
+.li{
+    text-decoration: none;
+}
+
+.li1{
+    font-size: 40px;
+    line-height: 65px;
+}
