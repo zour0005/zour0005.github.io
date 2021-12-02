@@ -42,3 +42,210 @@ input{
     width: 1900px;
     height: 600px;
 }
+
+
+
+.about-img{
+    margin-top: 80px;
+    height: 500px;
+    width: 1600px;
+}
+
+.content-wrapper2{
+    display: block;
+    background-color: rgb(255, 205, 145);
+}
+
+.text-wrapper2{
+    margin-bottom: 5px;
+}
+
+.digital-img{
+    margin-top: 20px;
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -20px;
+}
+
+.text-wrapper3{
+    background-color: rgb(255, 205, 145);
+}
+
+.marketing-img{
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -42px;
+}
+
+.hmarketing{
+    font-size: 50px;
+}
+
+.text-wrapper3{
+    background-color: (255, 205, 145);
+}
+
+.video-img{
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -42px;
+}
+
+.hvideo{
+    font-size: 50px;
+}
+
+.text-wrapper4{
+    background-color: rgb(255, 205, 145);
+}
+
+.web-img{
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -42px;
+}
+
+.hweb{
+    font-size: 50px;
+}
+
+.text-wrapper5{
+    background-color: rgb(255, 205, 145);
+}
+
+.print-img{
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -42px;
+}
+
+.hprint{
+    font-size: 50px;
+}
+
+.text-wrapper6{
+    background-color: rgb(255, 205, 145);
+}
+
+.text-wrapper7{
+    display: block;
+    position:relative;
+    margin-top: -25%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    color: white;
+}
+
+.text-wrapper7 h1{
+    text-emphasis: center;
+    font-size: 40px;
+    margin-right: 1250px;
+}
+
+.vision-img{
+    width: 1700px;
+    height: 450px;
+}
+
+.text-wrapper7 p{
+    font-size: 10px;
+}
+
+.content8{
+    margin-top: 350px;
+}
+
+.content8 h1{
+    font-size: 60px;
+}
+
+.john-img{
+    width: 1700px;
+    height: 450px;
+}
+
+.text-wrapper8 h2{
+    font-size: 35px;
+    line-height: 3px;
+}
+
+.text-wrapper8 h3{
+    font-size: 30px;
+    line-height: 5px;
+    line-height: 28px;
+    border-bottom: 5px solid black;
+}
+
+.text-wrapper8{
+    background-color: rgb(255, 205, 145);
+}
+
+.bob-img{
+    width: 1700px;
+    height: 450px;
+}
+
+.text-wrapper9 h2{
+    font-size: 35px;
+    line-height: 3px;
+}
+
+.text-wrapper9 h3{
+    font-size: 30px;
+    line-height: 5px;
+    line-height: 28px;
+    border-bottom: 5px solid black;
+}
+
+.text-wrapper9{
+    background-color: rgb(255, 205, 145);
+}
+
+.content9{
+    font-size: 30px;
+}
+
+.h9{
+    font-size: 28px;
+}
+
+caption{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.location{
+    font-size: 28px;
+    margin-bottom: -15px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: gold;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.un{
+    color: gold;
+}
+
+.hh1{
+    font-size: 50px;
+}
+
+.hh2{
+    font-size: 50px;
+}
+
+.hh3{
+    font-size: 50px;
+}
+
+.hh4{
+    margin-top: 400px;
+    font-size: 50px;
+}
+
