@@ -1,3 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
 img{
     display: block;
     margin: 0 auto;
@@ -29,7 +81,8 @@ input{
     font-size: 25px;
     margin-left: 60px;
     color: white;
-    background-color: lightgrey;
+    background-color: rgb(211, 210, 202);
+    padding: 20px;
 }
 
 .text-wrapper h1{
@@ -46,25 +99,25 @@ input{
 
 
 .about-img{
-    margin-top: 130px;
-    height: 500px;
+    height: 300px;
     width: 1600px;
 }
 
-.content-wrapper2{
-    display: block;
-    background-color: rgb(255, 205, 145);
-}
+
 
 .text-wrapper2{
-    margin-bottom: 5px;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 185px;
+    padding-right: 215px;
+    color: white;;
 }
 
 .digital-img{
     margin-top: 20px;
     height: 500px;
     width: 1600px;
-    margin-bottom: -20px;
+    margin-bottom: -1px;
 }
 
 .text-wrapper3{
@@ -74,7 +127,7 @@ input{
 .marketing-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -42px;
+    margin-bottom: -1px;
 }
 
 .hmarketing{
@@ -88,7 +141,7 @@ input{
 .video-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -42px;
+    margin-bottom: -1px;
 }
 
 .hvideo{
@@ -102,7 +155,7 @@ input{
 .web-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -42px;
+    margin-bottom: -1px;
 }
 
 .hweb{
@@ -116,7 +169,7 @@ input{
 .print-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -42px;
+    margin-bottom: -1px;
 }
 
 .hprint{
@@ -127,33 +180,26 @@ input{
     background-color: rgb(255, 205, 145);
 }
 
-.text-wrapper7{
-    display: block;
-    position:relative;
-    margin-top: -25%;
-    text-align: center;
-    font-size: 16px;
-    margin-left: 20px;
-    color: white;
-}
-
-.text-wrapper7 h1{
-    text-emphasis: center;
-    font-size: 40px;
-    margin-right: 1250px;
+.content-wrapper{
+    width: 80px;
+    margin: 4px 10px 5px 10px;
 }
 
 .vision-img{
-    width: 1700px;
-    height: 450px;
+    height: 300px;
+    width: 1600px;
 }
 
-.text-wrapper7 p{
-    font-size: 10px;
+.text-wrapper7{
+    position: relative;
+    margin-top: -200px;
+    margin-left: 185px;
+    padding-right: 215px;
+    color: white;
 }
 
 .content8{
-    margin-top: 350px;
+    margin-top: -250px;
 }
 
 .content8 h1{
@@ -168,6 +214,8 @@ input{
 .text-wrapper8 h2{
     font-size: 35px;
     line-height: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .text-wrapper8 h3{
@@ -186,9 +234,25 @@ input{
     height: 450px;
 }
 
+.pclass{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.pclass2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
 .text-wrapper9 h2{
     font-size: 35px;
     line-height: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .text-wrapper9 h3{
