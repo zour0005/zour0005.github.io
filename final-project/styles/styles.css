@@ -73,29 +73,39 @@ input{
     height: 40px;
 }
 
-.text-wrapper{
-    display: block;
-    position:relative;
-    margin-top: -25%;
-    text-align: center;
-    font-size: 25px;
-    margin-left: 60px;
-    color: white;
-    background-color: rgb(211, 210, 202);
-    padding: 20px;
-}
-
-.text-wrapper h1{
-    text-emphasis: center;
-    text-align: left;
-    font-size: 80px;
-}
-
 .main-img{
-    width: 1900px;
-    height: 600px;
+    height: 500px;
+    width: 1600px;
 }
 
+.text-wrapper{
+    position: relative;
+    margin-top: -220px;
+    margin-left: 185px;
+    padding-right: 215px;
+    color: white;
+    font-size: 28px;
+    margin-bottom: -100px;
+    background-color: rgba(211, 211, 211, 0.541);
+}
+
+.content-wrapper2{
+    display: block;
+    background-color: rgb(255, 205, 145);
+    padding-bottom: 25px;
+}
+
+.text-wrapper2{
+    background-color: rgb(255, 205, 145);
+}
+
+.about-img{
+    margin-top: 150px;
+    height: 500px;
+    width: 1600px;
+    margin-bottom: -1px;
+    padding-top: 50px;
+}
 
 .digital-img{
     margin-top: 20px;
@@ -111,7 +121,7 @@ input{
 .marketing-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -1px;
+    margin-top: 25px;
 }
 
 .hmarketing{
@@ -125,7 +135,7 @@ input{
 .video-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -1px;
+    margin-top: 25px;
 }
 
 .hvideo{
@@ -139,7 +149,7 @@ input{
 .web-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -1px;
+    margin-top: 25px;
 }
 
 .hweb{
@@ -153,7 +163,7 @@ input{
 .print-img{
     height: 500px;
     width: 1600px;
-    margin-bottom: -1px;
+    margin-top: 25px;
 }
 
 .hprint{
@@ -164,14 +174,11 @@ input{
     background-color: rgb(255, 205, 145);
 }
 
-.content-wrapper{
-    width: 80px;
-    margin: 4px 10px 5px 10px;
-}
 
 .vision-img{
     height: 300px;
     width: 1600px;
+    margin-top: 25px;
 }
 
 .text-wrapper7{
@@ -281,10 +288,12 @@ footer{
 }
 
 .hh1{
+    padding-top: 25px;
     font-size: 50px;
 }
 
 .hh2{
+    padding-top: 25px;
     font-size: 50px;
 }
 
