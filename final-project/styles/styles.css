@@ -267,6 +267,11 @@ input{
     padding-bottom: 15px;
 }
 
+button{
+    text-decoration: none;
+    color: black;
+}
+
 .pclass2{
     margin-top: 10px;
     margin-bottom: 20px;
