@@ -47,15 +47,23 @@ table {
 	border-spacing: 0;
 }
 
+/********************* Mobile First ********************/
+
 /********************* Font Import ********************/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;700&display=swap');
 
-/********************* Body ********************/
+/*************************************************
+                    BODY
+**************************************************/
+
 body{
     max-width: 1200px
 }
 
-/********************* NAV ********************/
+/*************************************************
+                    NAV
+**************************************************/
+
 img{
     display: block;
     margin: 0 auto;
@@ -67,7 +75,7 @@ nav ul{
 }
 
 .container{
-    background-color: black;
+    background-color: #222;
 }
 
 span{
@@ -80,7 +88,10 @@ input{
 }
 
 
-/********************* SECTIONS ********************/
+/*************************************************
+                    Content
+**************************************************/
+
 .main-img{
     height: 500px;
     width: 1600px;
@@ -94,17 +105,17 @@ input{
     color: white;
     font-size: 28px;
     margin-bottom: -100px;
-    background-color: rgba(211, 211, 211, 0.541);
+    background-color: rgba(34, 34, 34, 0.432);
 }
 
 .content-wrapper2{
     display: block;
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
     padding-bottom: 25px;
 }
 
 .text-wrapper2{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 .about-img{
@@ -123,8 +134,12 @@ input{
 }
 
 .text-wrapper3{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
+
+/*************************************************
+                    Images
+**************************************************/
 
 .marketing-img{
     height: 500px;
@@ -151,7 +166,7 @@ input{
 }
 
 .text-wrapper4{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 .web-img{
@@ -165,7 +180,7 @@ input{
 }
 
 .text-wrapper5{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 .print-img{
@@ -179,7 +194,7 @@ input{
 }
 
 .text-wrapper6{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 
@@ -225,7 +240,7 @@ input{
 }
 
 .text-wrapper8{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 .bob-img{
@@ -262,7 +277,7 @@ input{
 }
 
 .text-wrapper9{
-    background-color: rgb(255, 205, 145);
+    background-color: #ffe6ac;
 }
 
 .content9{
@@ -271,6 +286,14 @@ input{
 
 .h9{
     font-size: 28px;
+}
+
+.content10{
+    font-size: 35px;
+}
+
+.content10 h2{
+    font-size: 35px;
 }
 
 caption{
@@ -283,21 +306,41 @@ caption{
     margin-bottom: -15px;
 }
 
+/*************************************************
+                     Table Styling 
+**************************************************/
 
-/********************* Footer ********************/
+table{
+    width: 100%;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+
+.th{
+    background-color: #ffe6ac;
+}
+
+/*************************************************
+                    Footer
+**************************************************/
 footer{
     margin-top: 30px;
     background-color: black;
-    color: gold;
+    color: #c78c06;;
     font-size: 20px;
     line-height: 35px;
 }
 
 .un{
-    color: gold;
+    color: color: #c78c06;;
 }
 
-/********************* Header ********************/
+/*************************************************
+                    Header
+**************************************************/
+
 .hh1{
     padding-top: 25px;
     font-size: 50px;
@@ -325,11 +368,17 @@ i{
 
 #li{
     text-decoration: none;
+    color: #c78c06;
 }
 
 #li1{
     font-size: 40px;
     line-height: 65px;
+}
+
+.1button{
+    color: #222;
+    background-color: #c78c06;
 }
 
  /********************* Media Query For Desktop ********************/
@@ -340,10 +389,12 @@ i{
         font-family: 'Open Sans', sans-serif; 
 }
 
-.li1{ 
-    display: flex;
-    flex-wrap: wrap;
-}
+
+
+
+/*************************************************
+                    Content
+**************************************************/
 
 .container img{
     width: 100px;
@@ -384,10 +435,10 @@ content-wrapper{
     grid-template-rows: repeat(3, 1);
 }
 
-.2aricle{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+
+/*************************************************
+                    Images
+**************************************************/
 
 .web-img{
     width: 100px;
@@ -425,6 +476,12 @@ content-wrapper{
     font-size: 16px;
 }
 
+.h9{
+    margin-top: 80px;
+}
 
+form{
+    margin-left: -80px;
+}
 
 
