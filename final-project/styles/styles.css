@@ -68,10 +68,16 @@ img{
     display: block;
     margin: 0 auto;
     width: 1800px;
+    margin-left: -5px;
 }
 
 nav ul{
     text-align: center;
+}
+
+li a{
+    float: left;
+    margin-top: 50px;
 }
 
 .container{
@@ -483,5 +489,4 @@ content-wrapper{
 form{
     margin-left: -80px;
 }
-
 
