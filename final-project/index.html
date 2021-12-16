@@ -10,18 +10,16 @@
 <link href="styles/styles.css" rel="stylesheet">
 <title>HTML MOCK-UP</title>
 </head>
-
 <body>
-    <!-- Document Content -->
+
+    <!---- Document Content ---->
 <header>
+    <nav>
     <div class="container">
     <img src="images/logo.png" alt="logo" width="400" height="400"> 
-
-    <!-- Setting a nav -->
-
-  <nav>
+    <!----- Setting a nav ----->
     <ul>
-        <li class="li1">
+        <li id="li1">
         <a href="index.html" class="li">
              <span style="color: gold;">Home</span>
             </a>
@@ -31,18 +29,18 @@
              <span style="color: gold;">About</span>
             </a>
             </li>
-            <li class="li1">
+            <li id="li1">
         <a href="index.html" class="li">
             <span style="color: gold;">Services</span>
            </a>
            </li>
             <li>
-         <a href="index.html" class="li">
+         <a href="index.html" id="li">
              <span style="color: gold;">Team</span>
             </a>
             </li>
             <li class="li1">
-            <a href="index.html" class="li">
+            <a href="index.html" id="li">
                 <span style="color: gold;">Contact</span>
                </a>
                </li>
@@ -52,31 +50,30 @@
           <form action="index.html" method="get">
               <label for="search">Search</label>
               <input type="text" id="search" name="search" class="search"><i class="icon icon-zoom"></i>
-          </form>
-           </div>
-              </nav>
-              </div>
+            </form>
+        </div>
+    </div>
+           </nav>
+
+              <section>
+                <div class="content-wrapper">
+                  <img src="images/main-banner.jpg" alt="logo" class="main-img">
+                  <div class="text-wrapper">
+                      <h1>Welcome To Three Star Media</h1>
+                      <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum. Proin vulputate justo sit amet suscipit pellentesque. Nulla facilisi. Praesent lacinia nisi eget purus finibus placerat. Ut turpis nulla, pellentesque a velit fermentum, varius vestibulum massa. Praesent lacinia nisi eget purus finibus placerat. Ut turpis nulla, pellentesque a velit fermentum, varius vestibulum massa. 
+                      </p>
+                      <button>Connect with us</button>  
+                        </div>
+                      </div>
+              </section>
             </header>
 
+            <!------Main page content------>
 
-            <!-- Sections to seprate text -->
-
-        
-
-            <section>
-              <div class="content-wrapper">
-                <img src="images/main-banner.jpg" alt="logo" class="main-img">
-                <div class="text-wrapper">
-                    <h1>Welcome To Three Star Media</h1>
-                    <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum. Proin vulputate justo sit amet suscipit pellentesque. Nulla facilisi. Praesent lacinia nisi eget purus finibus placerat. Ut turpis nulla, pellentesque a velit fermentum, varius vestibulum massa. Praesent lacinia nisi eget purus finibus placerat. Ut turpis nulla, pellentesque a velit fermentum, varius vestibulum massa. 
-                    </p>
-                    <button>Connect with us</button>  
-                      </div>
-                    </div>
-            </section>
-
-
+            <!----- article to re-design layout ------>
+            <article class="article">
+            <!------ Sections to seprate text ------->
         <section>
             <div class="content-wrapper2">
                     <img src="images/about-us.jpg" alt="logo"  class="about-img" width="400" height="20">
@@ -153,6 +150,7 @@
                 </div>
             </div>
         </section>
+            </article>
 
         <section>
         <div class="content-wrapper7"> 
@@ -161,12 +159,15 @@
           <h2>Our Vison</h2>
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum. Etiam convallis magna non urna ultricies interdum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum. Etiam convallis magna non urna ultricies interdum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum.
-          <button>Learn More</button>  
-        </p>
+          </p>
+          <button>Learn More</button>
             </div>
           </div>
         </section>
 
+
+        <!-------- Our Team --------->
+        <article class="2article">
         <section>
             <div class="content8">
             <h2 class="hh4">Our Team</h2> 
@@ -180,20 +181,25 @@
              </div>
             </div>
 
-            <img src="images/bob.jpg" alt="logo"  class="bob-img">
+            <div class="content9"> 
             <div class="text-wrapper9">
-             <h2>Bob Rite</h2>
-             <h3>CFO and Co-owner</h3>
+             <h2 class="hh5">Bob Rite</h2>
+             <h3 class="hh5">CFO and Co-owner</h3>
              <p class="pclass2">
              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam convallis magna non urna ultricies interdum. Proin vulputate justo sit amet suscipit pellentesque. Nulla facilisi. Praesent lacinia nisi eget purus finibus placerat. Ut turpis nulla, pellentesque a velit fermentum, varius vestibulum massa. Praesent et sapien velit. Phasellus luctus elit interdum, rutrum elit sed, rutrum magna. Ut hendrerit iaculis accumsan. Curabitur in nisl malesuada, egestas odio a, molestie neque. Ut elementum, orci quis venenatis aliquam, nisi nunc laoreet elit, in volutpat nulla dui in orci. Aliquam ornare dapibus urna, nec convallis ipsum interdum id. Nam hendrerit dui vitae posuere blandit. Ut sit amet dapibus libero, ac dignissim ante. Proin vulputate nulla a mi dignissim, nec rutrum neque fermentum. Sed iaculis mauris tellus, et venenatis sem sagittis a.
+            <img src="images/bob.jpg" alt="logo"  class="bob-img">
             </p>
         </div>
+       </div>
         </section>
+        </article>
 
+
+        <article class="3article">
         <section>
             <div class="content9">
                 <h2>Contact Us</h2>
-                <!-- Making form layout -->
+                <!------ Making form layout ------>
                 <form action="#" method="post">
                     <h2 class="h9">Send us a message</h2>
                     <p>Full Name</p>
@@ -225,6 +231,8 @@
                 </tr>
             </table>
         </section>
+        </article>
+
 
         <section>
             <div class="location">
@@ -235,8 +243,8 @@
             </div>
             </section>
 
+            <!-------- Copyright Content --------->
             <footer>
-                <!-- Copyright Content -->
                 &copy; Copyright Three  Star Media, 2020
                 <div>All images are taken from <a href="index.html">
                 <span class="un">Unsplash</span>

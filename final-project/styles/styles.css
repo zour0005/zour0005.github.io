@@ -47,9 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+/********************* Font Import ********************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@400;700&display=swap');
 
+/********************* Body ********************/
+body{
+    max-width: 1200px
+}
 
-
+/********************* NAV ********************/
 img{
     display: block;
     margin: 0 auto;
@@ -73,6 +79,8 @@ input{
     height: 40px;
 }
 
+
+/********************* SECTIONS ********************/
 .main-img{
     height: 500px;
     width: 1600px;
@@ -275,6 +283,8 @@ caption{
     margin-bottom: -15px;
 }
 
+
+/********************* Footer ********************/
 footer{
     margin-top: 30px;
     background-color: black;
@@ -287,6 +297,7 @@ footer{
     color: gold;
 }
 
+/********************* Header ********************/
 .hh1{
     padding-top: 25px;
     font-size: 50px;
@@ -302,7 +313,7 @@ footer{
 }
 
 .hh4{
-    margin-top: 400px;
+    margin-top: -100px;
     font-size: 50px;
 }
 
@@ -312,11 +323,108 @@ i{
     border: 1px solid gold;
 }
 
-.li{
+#li{
     text-decoration: none;
 }
 
-.li1{
+#li1{
     font-size: 40px;
     line-height: 65px;
 }
+
+ /********************* Media Query For Desktop ********************/
+
+@media screen and (min-width: 760px){
+    body{
+        max-width: 1200px;
+        font-family: 'Open Sans', sans-serif; 
+}
+
+.li1{ 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 100px;
+    height: 100px;
+}
+
+content-wrapper{
+    padding: 50px;
+    padding-bottom: 550px;
+    margin-bottom: 300px;
+}
+
+.content-wrapper2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 400px;
+    margin-top: -135px;
+}
+
+.content8{
+    margin-top: 200px;
+    display: flex;
+}
+
+.content9{
+    display: flex;
+}
+
+.about-img{
+    height: 200px;
+    width: 200px;
+}
+
+.article{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1);
+}
+
+.2aricle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.web-img{
+    width: 100px;
+}
+
+.marketing-img{
+    width: 100px;
+}
+
+.video-img{
+    width: 100px;
+}
+
+.digital-img{
+    width: 100px;
+}
+
+.print-img{
+    width: 100px;
+}
+
+.john-img{
+    width:500px;
+    margin-left: -140px;
+}
+
+.bob-img{
+    margin-top: -112px;
+    margin-right: 0;
+    width:500px;
+}
+
+.pclass2{
+    padding-top: -110px;
+    font-size: 16px;
+}
+
+
+
+
