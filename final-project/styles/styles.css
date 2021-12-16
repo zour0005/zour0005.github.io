@@ -76,8 +76,14 @@ nav ul{
 }
 
 li a{
-    float: left;
-    margin-top: 50px;
+    color: #c78c06;
+	float:left; 
+	font-size:2.0rem;
+	background:#220044;
+	border:1px solid black;
+	border-radius:10px; 
+	padding:0;
+    height:auto; 
 }
 
 .container{
