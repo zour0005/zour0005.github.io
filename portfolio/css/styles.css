@@ -50,6 +50,8 @@ table {
 
 /************************************ My CSS *************************************/
 
+/************************************ Mobile First *************************************/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -73,6 +75,7 @@ header {
 
 .nav_links{
     list-style: none;
+    background-color: black;
 }
 
 .nav_links li{
@@ -132,4 +135,50 @@ h1{
     padding: 5px 605px;
 }
 
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: #F5EFEF;
+    margin: 10% auto;
+    border-radius: 50%;
+    position: relative;
+}
 
+.content {
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+/************************************ Media Queries *************************************/
+
+/************************************ Tablet Width *************************************/
+
+@media screen and (min-width: 880px) {
+    .container {
+        width: 800px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+}
+
+/************************************ Desktop Width *************************************/
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1200px;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+}
